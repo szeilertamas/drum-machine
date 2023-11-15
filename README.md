@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Drum Machine Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple drum machine built using React. It allows users to play piano sounds by clicking on the virtual drum pads or by using keyboard keys.
 
-## Available Scripts
+You can see it live here: https://szeilertamas.github.io/drum-machine/
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To get started with the project, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository to your local machine:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    git clone https://github.com/your-username/drum-machine.git
+    ```
 
-### `npm test`
+2. **Change into the project directory:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    cd drum-machine
+    ```
 
-### `npm run build`
+3. **Install the necessary dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the development server:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+5. **Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the drum machine.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **index.html:** The main HTML file that renders the React app.
+- **index.js:** The entry point for the React app, where the root component is rendered.
+- **app.js:** The main React component that defines the drum machine's functionality.
+- **index.css and app.css:** Stylesheets for the HTML and React components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Virtual drum pads for each key (Q, W, E, A, S, D, Z, X, C).
+- Clicking on a drum pad or pressing the corresponding keyboard key triggers a piano sound.
+- Display panel shows the name of the piano sound being played.
 
-## Learn More
+## Keyboard Controls
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Press the keys Q, W, E, A, S, D, Z, X, or C to play the associated piano sounds.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Audio Files
 
-### Code Splitting
+The piano sounds are associated with audio files located in the public directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Dependencies
 
-### Analyzing the Bundle Size
+- **React:** A JavaScript library for building user interfaces.
+- **FreeCodeCamp Testable Projects Bundle:** External JavaScript bundle for testing the project (included via CDN).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.
