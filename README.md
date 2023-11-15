@@ -1,4 +1,4 @@
-# Drum Machine Project
+# Drum Machine
 
 This project is a simple drum machine built using React. It allows users to play piano sounds by clicking on the virtual drum pads or by using keyboard keys.
 
