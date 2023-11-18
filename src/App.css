@@ -17,6 +17,8 @@
   color: white;
   display: flex;
   flex-direction: row;
+  margin: 20px;
+  padding: 20px;
 }
 
 .drum-pad-grid {
@@ -51,24 +53,32 @@ audio {
   max-width: 80px;
 }
 
-#control-panel {
-  margin: 0 auto;
-  min-width: 20%;
+.control-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 250px;
+}
+
+#control-panel {
+  display: block;
+  height: 335px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .drum-display {
   width: 100%;
-  height: 20%;
+  height: 80px;
   background-color: #282c34;
   border: 2px solid ghostwhite;
   color: ghostwhite;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 32px;
 }
 
 .drum-pad.pressed {
